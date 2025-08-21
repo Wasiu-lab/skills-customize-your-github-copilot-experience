@@ -1,6 +1,6 @@
 # Starter code for Python Data Visualization assignment
 
-import matplotlib.pyplot as plt  # or import plotly.express as px
+import matplotlib.pyplot as plt  # pyright: ignore[reportMissingModuleSource] # or import plotly.express as px
 
 # Example data for bar chart
 data_categories = ['A', 'B', 'C']
